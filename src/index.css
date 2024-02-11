@@ -1,5 +1,10 @@
 body {
   background-color: rgb(28, 28, 33);
-  color: rgb(237, 224, 191);
+  color: rgb(115, 115, 115);
+  font-size: large;
+}
+
+* {
+  /* border: 0.5px solid rgb(218, 130, 130); */
 }
 
