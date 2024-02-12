@@ -16,7 +16,7 @@ function Home() {
   return (
     <Layout>
       <h1>Home</h1>
-      <section className="flex justify-center flex-wrap gap-5 p-20">
+      <section className="grid gap-5 grid-cols-4 w-full max-w-screen-lg">
         {items?.map((item) => (
           <Card key={item.id} data={item} />
         ))}
