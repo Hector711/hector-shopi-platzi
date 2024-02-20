@@ -13,7 +13,7 @@ function Home() {
   }, []);
 
   return (
-    <Layout>
+    <Layout>s
       <h1>Home</h1>
       <section className="grid gap-5 grid-cols-4 w-full max-w-screen-lg">
         {items?.map((item) => (
